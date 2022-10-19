@@ -1,0 +1,75 @@
+body{
+    background-image: url("ps1.jpg");
+    background-size: cover;
+    font-size: larger;
+    text-align: center;
+    font-weight: bolder;
+}
+h1{
+
+    background:linear-gradient(#ffc8dd,#ff99c8);
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 50px;
+    padding: 2px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    border: none;
+
+}
+
+h2{
+    font-size: 50px;
+    margin-top: 0;
+    background: white;
+    width: 100px;
+    display: block;
+    margin: 0 auto 10 auto;
+    border-radius: 10px;
+    padding: 2px 1px;
+}
+p{
+    font-size:larger;
+    font-weight: bolder;
+    margin-top: 20px;
+    background: linear-gradient(#89c2d9,#a9d6e5);
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    padding: 3px;
+
+}
+button{
+    margin-top: 20px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-size: larger;
+    border: none;
+    border-radius: 8px;
+    background: #d90429;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#incre-btn:hover{
+    background: black;
+}
+
+#save-btn{
+    background: green;
+}
+
+#save-btn:hover{
+    background:white;
+    color: black;
+}
